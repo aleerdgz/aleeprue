@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0;}
+body{font-family: 'Open Sans', Arial, sans-serif; font-size: 16px;}
+header{background:url('file:///home/ale/Documentos/cursoweb/Bootstraps5/fondos.jpg'),#e9c46a; background-size:cover; background-position: center 0; background-repeat: no-repeat;}
+.contenedor_logo_menu{padding: 25px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.4);}
+a img{display: block; vertical-align:top;}
+.menu a{ text-align: right; text-height:50px; color: #fff; margin-left: 60px; font-size: 18px;}
+.textos{color: #fff; text-align: center; margin: 200px 0; margin-bottom: 75px;}
+.Primera_linea,
+.segunda_linea{font-family: 'Open Sans', Arial, sans-serif; font-weight: 300;}
+.Primera_linea{font-size: 35px;line-height: 35px;margin-bottom: 30px;}
+.segunda_linea{font-size:25px ;line-height:25px ; margin-bottom:60px;}
+.contenedor-btns a{border-radius: 4px; border: 2px solid #fff; color: #fff; padding: 12px 0; font-weight: 800; width: 225px; display: inline-block; text-align: center;margin: 0 10px; margin-bottom: 32px}
+.contenedor-btns a:hover{text-decoration: none; background: #fff; color: #4f4f4f;}
+
+
+.main{background: #f2f2f2;}
+.Caracteristicas{padding:70px 0;}
+.Caracteristicas h3 {text-align: center;font-family: 'Open Sans', Arial, sans-serif; font-weight: 300px;font-size: 32px; color: #000; margin-bottom: 70px;}
+.caracteristicas{ text-align: center;}
+.icono{vertical-align: top; margin-bottom: 30px;}
+.primera-linea{font-weight: 800; margin-bottom: 30px; font-size: 20px; margin-right: 10px;}
+.parrafo{margin-bottom: 30px; line-height: 28px;}
+
+.fotos{margin-bottom: 70px;}
+.foto{ margin-bottom: 20px;}
+.thumb img{border-radius: 3px; vertical-align: top;}
+.fotos .foto .texto .titulo-azul{margin-top: 70px; margin-bottom: 40px;font-size: 32px; font-weight: 300; line-height:32px; color: #2a9d8f; width: 60%;}
+.fotos .foto .texto .titulo-naranja {margin-top: 70px; margin-bottom: 40px;font-size: 32px; font-weight: 300; line-height:32px;color: #f4a261;width: 60%;}
+.fotos .foto .texto .parrafo{line-height: 28px;}
+.derecha{ text-align: right;}
+.izquierda{text-align: left;}
+.fotos .foto .texto .parrafo-derecha{text-align: right;}
+.fotos .foto .texto .parrafo-izquierda{text-align: left;}
+
+.Clientes,.clientes{background: #2d353e; padding: 40px 0;}
+.Clientes h3{text-align: center; font-family: 'Open sans', Arial, sans-serif; font-weight: 300; font-size: 32px; color:#fff; margin-bottom: 40px}
+.clientes a img{display: block;}
+
+.Precios{background: url('file:///home/ale/Documentos/cursoweb/Bootstraps5/fon2.jpg')#f2f1f1; background-size: cover; background-position: center; background-repeat: no-repeat;padding: 70px 0;}
+.Precios .titulos{text-align: center; font-family: 'Open sans', Arial, sans-serif; font-weight: 800; font-size: 32px; color: #f2f2f2; margin-bottom: 70px;}
+.precio .plan{background: #fff; text-align: center;font-family: 'Open sans', Arial, sans-serif;font-size: 20px;padding: 50px 0;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.0.35);}
+.precio .plan .nombre{font-size: 32px; line-height: 32px;font-weight: 300px; margin-bottom: 30px;}
+.precio .plan .dinero{font-weight: 300px; font-size: 50px; margin-bottom: 30px;}
+.precio .plan .caracteristicas{list-style: none; padding: 0px 20px; margin-bottom: 50px; color: #000;}
+.precio .plan .caracteristicas li{font-size: 18px;padding: 15px 0; border-bottom: 1px solid #dedede; color: #000;}
+.precio .plan a .btn{width: 70%; padding: 15px 0; text-align: center; display: inline-block; border-radius: 100px;}
+.precio .plan-verde {color: #86b773;}
+.precio .plan .btn-verde{color: #86b773; border: 2px solid #86b773;}
+.precio .plan .btn-verde:hover{background:#86b773;color: #fff;}
+.precio .plan-azul{background: #48cae4;}
+.precio .plan .btn-azul{color: #fff; border: 2px solid #fff;}
+.precio .plan .btn-azul:hover{background:#fff;color: #48cae4;}
+.precio .plan-morado {color: #45425A;}
+.precio .plan .btn-morado{color: #45425A; border: 2px solid #45425A;}
+.precio .plan .btn-morado:hover{background:#45425A;color: #fff;}
+
+.Reviews{padding: 70px;}
+.Reviews h3{text-align: center;font-family: 'Open sans', Arial, sans-serif;color: #4facd3; font-weight: 300; font-size: 32px; margin-bottom: 70px;}
+.cliente{margin-bottom: 20px; overflow: hidden;}
+.cliente .foto{width: 20%;float: left; text-align: right;}
+.cliente img{max-width: 100px; width: 100%; vertical-align: top; border-radius: 100%;}
+.review{float: left;width: 80%; padding: 0px 30px; margin-top: 20px}
+.cliente .fotos{width: 20%;float: right; text-align: left;}
+.review .texts{float: right;width: 80%; padding: 0px 30px; margin-top: 20px}
+
+
+footer .direccion{background: #3c4045; padding: 30px 0; color:#ffff;}
+footer .direccion .titulo{ font-size: 32px; line-height: 32px; font-weight: 300; margin-bottom: 30px;}
+footer .direccion .calle, .telefono, .correo{margin-bottom: 10px;}
+footer .direccion img{margin-top: 70px;}
+footer .socia{text-align: center; padding: 20px 0;}
+footer .social a{padding: 10px; display: inline-block; margin: 0 120px; width: 50px; font-size: 22px; color: #fff; background: #000; border-radius: 100px}
+footer .social a:hover{text-decoration: none;}
+footer .social a .fa-facebook{background: #3b5998;}
+footer .social a .fa-twitter{background: #55acee;}
+footer .social a .fa-youtube{background: #cd201f;}
+
+@media screen and (max-width:992px) {
+  header .contenedor_logo_menu .logo{margin-bottom: 20px; text-align: center;}
+  header .menu{text-align: center;}
+  header a{margin: 0 20px;}
+  .textos{margin: 50px 0; font-size: 16px;}
+  .Primera_linea{font-size: 1.5em;}
+  .segunda_linea{font-size: 1.3em;}
+  .main .fotos .foto .titulo{margin-top: 0}
+  .main .Clientes .clientes{margin-bottom: 40px;}
+}
+
+@media screen and (max-width:768px) {
+  .main .Caracteristicas .caracteristicas{ margin-bottom: 40px}
+  .fotos .foto{text-align: center;}
+  .fotos .foto .texto{text-align: left;}
+  .foto .parrafo-izquierda,
+  .foto .parrafo-derecha{margin-bottom: 10px;}
+  .Precios .precio{margin-bottom: 20px;}
+  footer .direccion{text-align: center;}
+  footer .direccion .logo{margin-top: 20px;}
+}
